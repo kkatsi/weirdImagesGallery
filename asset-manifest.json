@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/weirdImagesGallery/static/css/main.74ed352f.chunk.css",
+    "main.js": "/weirdImagesGallery/static/js/main.4f55ed4a.chunk.js",
+    "main.js.map": "/weirdImagesGallery/static/js/main.4f55ed4a.chunk.js.map",
+    "runtime-main.js": "/weirdImagesGallery/static/js/runtime-main.b5df012f.js",
+    "runtime-main.js.map": "/weirdImagesGallery/static/js/runtime-main.b5df012f.js.map",
+    "static/css/2.11829350.chunk.css": "/weirdImagesGallery/static/css/2.11829350.chunk.css",
+    "static/js/2.123c5955.chunk.js": "/weirdImagesGallery/static/js/2.123c5955.chunk.js",
+    "static/js/2.123c5955.chunk.js.map": "/weirdImagesGallery/static/js/2.123c5955.chunk.js.map",
+    "index.html": "/weirdImagesGallery/index.html",
+    "precache-manifest.510a808477c5a884017adde869e949ac.js": "/weirdImagesGallery/precache-manifest.510a808477c5a884017adde869e949ac.js",
+    "service-worker.js": "/weirdImagesGallery/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/weirdImagesGallery/static/css/2.11829350.chunk.css.map",
+    "static/css/main.74ed352f.chunk.css.map": "/weirdImagesGallery/static/css/main.74ed352f.chunk.css.map",
+    "static/js/2.123c5955.chunk.js.LICENSE.txt": "/weirdImagesGallery/static/js/2.123c5955.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5df012f.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.123c5955.chunk.js",
+    "static/css/main.74ed352f.chunk.css",
+    "static/js/main.4f55ed4a.chunk.js"
+  ]
+}
