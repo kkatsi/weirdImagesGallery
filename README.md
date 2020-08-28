@@ -10,8 +10,6 @@ Used [React](https://reactjs.org/) to develop the whole thing.
 
 ## Technologies Used
 
-Some other technologies / features used too in addition to React.js:
-
 1) [Unsplash API](https://unsplash.com/developers)
 2) [React-Bootstrap](https://react-bootstrap.github.io/)
 3) [Font-Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
