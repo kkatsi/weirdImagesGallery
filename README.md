@@ -22,7 +22,7 @@ Used [React](https://reactjs.org/) to develop the whole thing.
 ## Achived Functionality
 
 1) Masonry like listed Boostrap Cards containing Images, when hovering displaying each Artist's name and a download link button.
-2) Clicking on a Card a modal displayed with Header, Body, Footer. In the Header there is displayed Artist's name, a link for artist's instagram and a close button. In the Body the image is displayed. Finally in the Footer the is are image's description and a download link button.
+2) Clicking on a Card a modal displayed with Header, Body, Footer. In the Header there is displayed Artist's name, a link for artist's instagram and a close button. In the Body the image is displayed. Finally in the Footer the are image's description and a download link button.
 3) Clicking on the image inside the modal, makes image display at it's full size (like zooming in). Clicking again, zooms out.
 4) There are arrows left and right of the modal, and by clicking them, the previous or the next image displayed updating all properties (like artist's name, links etc.).
 5) Fully Responsive.  
