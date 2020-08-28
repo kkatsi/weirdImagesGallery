@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfde4ad1ef8dd87e7265daec5fa7d8fc",
+    "revision": "bf4d2c155cb7160caa10743fe0dde07a",
     "url": "/weirdImagesGallery/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weirdImagesGallery/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "87f9777a79053cfd5792",
+    "revision": "766e245b7410f1a90d49",
     "url": "/weirdImagesGallery/static/css/main.74ed352f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weirdImagesGallery/static/js/2.123c5955.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87f9777a79053cfd5792",
-    "url": "/weirdImagesGallery/static/js/main.4f55ed4a.chunk.js"
+    "revision": "766e245b7410f1a90d49",
+    "url": "/weirdImagesGallery/static/js/main.00e48fac.chunk.js"
   },
   {
     "revision": "cf400768efd04811ef5e",
