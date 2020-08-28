@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Weird Images Gallery
 
-## Available Scripts
+Just a reimplementation of [Unsplash](https://unsplash.com/), containing only weird / strange images.\
+Click [here](https://kkatsi.github.io/weirdImagesGallery/) to try it!
 
-In the project directory, you can run:
+## Language
 
-### `npm start`
+Used [React](https://reactjs.org/) to develop the whole thing.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+1) [Unsplash API](https://unsplash.com/developers)
+2) [React-Bootstrap](https://react-bootstrap.github.io/)
+3) [Font-Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
+4) [Infinite Scroll Component](https://github.com/ankeetmaini/react-infinite-scroll-component)
+5) [React Masonry CSS](https://github.com/paulcollett/react-masonry-css)
+6) [Axios](https://github.com/axios/axios)
+7) [React Swipeable](https://github.com/FormidableLabs/react-swipeable)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Achived Functionality
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1) Masonry like listed Boostrap Cards containing Images, when hovering displaying each Artist's name and a download link button.
+2) Clicking on a Card a modal displayed with Header, Body, Footer. In the Header there is displayed Artist's name, a link for artist's instagram and a close button. In the Body the image is displayed. Finally in the Footer the are image's description and a download link button.
+3) Clicking on the image inside the modal, makes image display at it's full size (like zooming in). Clicking again, zooms out.
+4) There are arrows left and right of the modal, and by clicking them, the previous or the next image displayed updating all properties (like artist's name, links etc.).
+5) Fully Responsive.  
