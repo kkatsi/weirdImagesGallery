@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import "./css/masonry.css";
 import Masonry from "react-masonry-css";
@@ -20,7 +20,8 @@ function App(props) {
   const [modalSrc, setModalSrc] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  let i = 0;
+  let i,
+    j = 0;
 
   const { error, hasMore, data } = useImageSearch(pageNumber);
 
@@ -37,10 +38,6 @@ function App(props) {
     true
   );
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  // });
-
   //setting some fancy effect for navbar when scrolling
   // function handleScroll(e) {
   //   const navbar = document.getElementById("navbar");
@@ -51,6 +48,12 @@ function App(props) {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
+
+  function onKeyDown(e) {
+    if (e.keyCode === 39) {
+      onRightClick();
+    } else if (e.keyCode === 37) onLeftClick();
+  }
 
   //Getting the clicked card's props to pass into Modal
   function handleClick(e) {
@@ -92,14 +95,8 @@ function App(props) {
     }
   }
 
-  function onKeyDown(e) {
-    if (e.keyCode === 39 && show) {
-      onRightClick();
-    } else if (e.keyCode === 37 && show) onLeftClick();
-  }
-
   return (
-    <div className="App">
+    <div className="App" onKeyDown={onKeyDown} tabIndex="0">
       <Jumbotron fluid>
         <Container className="text-center">
           <h1 className="display-1 pt-5 px-5 px-sm-0">
